@@ -30,21 +30,6 @@ print("\nPorfavor, seleccione el servicio dado por el usuario:");
   valorPedido = int.parse(stdin.readLineSync()!);
 
   double propinaFinal = 0;
-
-
-  if (calificacionServicio == 1){
-    print("Excelente");
-    propinaFinal = valorPedido * 0.20;
-
-  } else
-  if (calificacionServicio == 2) {
-    print("Bueno");
-    propinaFinal = valorPedido * 0.15;
-  } else
-  if (calificacionServicio == 3){
-    print("Regular");
-    propinaFinal = valorPedido * 0.10;
-  }
   
 
 
