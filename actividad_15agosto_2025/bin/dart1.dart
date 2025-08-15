@@ -4,8 +4,8 @@ import 'dart:io';
 void main() {
  // seleccion
 
-  print(" ");
-  print("Hola!, aqui podras calcular las propinas de su servicio de delivery!");
+  
+  print("\nHola!, aqui podras calcular las propinas de su servicio de delivery!");
   print("Porfavor, seleccione su servicio:");
   print("1. Comida");
   print("2. Farmacia");
@@ -16,7 +16,7 @@ print ("Servicio: ");
   seleccion = int.parse(stdin.readLineSync()!);
 // --------------- //
 
-print("Porfavor, seleccione el servicio dado por el usuario:");
+print("\nPorfavor, seleccione el servicio dado por el usuario:");
   print("1. Excelente");
   print("2. Bueno");
   print("3. Regular");
